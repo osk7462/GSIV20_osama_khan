@@ -1,8 +1,4 @@
 import React from 'react'
-import {
-    useParams
-} from 'react-router-dom'
-
 import {connect} from 'react-redux'
 import {fetchMoviesList, nextPage, displaySearch} from '../../redux'
 import MovieCard from './movieCard'
@@ -32,8 +28,6 @@ function HomePage({moviesState, fetchMovies, nextPage, setDisplaySearch}) {
         setDisplaySearch((true))
     }, [page])
 
-    console.log("the qury is", moviesState.query)
-    console.log("tthe page is ", page)
     return (
         <Grid container justifyContent="center"  spacing={2} style={{flexGrow: 1, marginTop: 10, marginBottom: 100}}>
                   {

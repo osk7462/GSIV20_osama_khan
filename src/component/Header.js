@@ -8,7 +8,7 @@ import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
 import {Link} from 'react-router-dom'
 
-import {fetchMoviesList, setPage, setQuery, displaySearch} from '../redux'
+import {fetchMoviesList, setPage, setQuery} from '../redux'
 import {connect} from 'react-redux'
 
 const useStyles = makeStyles((theme) => ({
