@@ -1,0 +1,7 @@
+export const FETCH_MOVIE_REQUEST = 'FETCH_MOVIE_REQUEST'
+export const FETCH_MOVIE_SUCCESS = 'FETCH_MOVIE_SUCCESS'
+export const FETCH_MOVIE_FAILED = 'FETCH_MOVIE_FAILED'
+export const QUERY = 'QUERY'
+export const SET_PAGE = 'SET_PAGE'
+export const NEXT_PAGE = 'NEXT_PAGE'
+
