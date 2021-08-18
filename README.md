@@ -1,4 +1,7 @@
-## please visit website [https://movielibfinder.netlify.app/]
+## please visit website https://movielibfinder.netlify.app/
+
+
+
 
 # Getting Started with Create React App
 
